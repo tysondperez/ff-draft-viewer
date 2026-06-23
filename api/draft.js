@@ -1,5 +1,5 @@
 
-import playerData from "../player-list.json" assert { type: "json" };
+import playerData from "../player-list.json" with { type: "json" };
 
 const LEAGUE_YEAR = 2025;
 const LEAGUE_ID = 10721;
