@@ -1,29 +1,13 @@
-const LEAGUE_YEAR = 2025;
-const LEAGUE_ID = 10721;
+// const LEAGUE_YEAR = 2025;
+// const LEAGUE_ID = 10721;
 
 async function fetchDraft(){
-    console.log("hello00");
     try {
-        const response = await fetch("/api/draft");
+        const res = await fetch("/api/draft");
+        const data = await res.json();
 
-        console.log("returned");
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-        }
-
-        const xmlText = await response.text();
-
-        console.log(xmlText);
-
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(
-            xmlText,
-            "application/xml"
-        );
-
-        const picks = xmlDoc.getElementsByTagName("draftPick");
-
-        console.log(`Found ${picks.length} picks`);
+        console.log(data.meta);
+        console.log(data.picks);
     }
     catch (error) {
         console.error(error);
