@@ -1,16 +1,34 @@
 const LEAGUE_YEAR = 2025;
 const LEAGUE_ID = 10721;
 
-function updateRosters(){
-    fetch("http://www46.myfantasyleague.com/fflnetdynamic"+LEAGUE_YEAR+"/"+LEAGUE_ID+"_LEAGUE_draft_results.xml")
-    .then(response => response.text())
-    .then(xmlText => {
+async function fetchDraft(){
+    console.log("hello00");
+    try {
+        const response = await fetch("/api/draft");
+
+        console.log("returned");
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        const xmlText = await response.text();
+
+        console.log(xmlText);
+
         const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
-        console.log(xmlDoc);
-    })
-    .catch(error => console.error("Error fetching XML:", error));
+        const xmlDoc = parser.parseFromString(
+            xmlText,
+            "application/xml"
+        );
+
+        const picks = xmlDoc.getElementsByTagName("draftPick");
+
+        console.log(`Found ${picks.length} picks`);
+    }
+    catch (error) {
+        console.error(error);
+    }
 }
 
-updateRosters();
-//setInterval(updateRosters, 5000);
+fetchDraft();
+//setInterval(fetchDraft, 5000);
