@@ -1,133 +1,133 @@
 {
   "count": "16",
-    "franchise": [
-      {
-        "icon": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_icon0001.gif",
-        "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0001.jpg",
-        "owner_name": "Jesse D Perez",
-        "division": "00",
-        "id": "0001",
-        "name": "Ferrets"
+  "franchise": [
+    {
+      "icon": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_icon0001.gif",
+      "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0001.jpg",
+      "owner_name": "Jesse D Perez",
+      "division": "00",
+      "id": "0001",
+      "name": "Ferrets"
     },
     {
-        "icon": "https://www46.myfantasyleague.com/fflnet2017/helmets/h-0348.gif",
-        "name": "Beavers",
-        "id": "0002",
-        "division": "03",
-        "owner_name": "Adam Haas",
-        "logo": "https://www46.myfantasyleague.com/fflnet2017/helmets/h-0242.gif"
+      "icon": "https://www46.myfantasyleague.com/fflnet2017/helmets/h-0348.gif",
+      "name": "Beavers",
+      "id": "0002",
+      "division": "03",
+      "owner_name": "Adam Haas",
+      "logo": "https://www46.myfantasyleague.com/fflnet2017/helmets/h-0242.gif"
     },
     {
-        "name": "Elephants",
-        "id": "0003",
-        "division": "02",
-        "owner_name": "Eli Perez",
-        "logo": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_logo0003.gif",
-        "icon": "https://www46.myfantasyleague.com/fflnet2015/helmets/h-0300.gif"
+      "name": "Elephants",
+      "id": "0003",
+      "division": "02",
+      "owner_name": "Eli Perez",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_logo0003.gif",
+      "icon": "https://www46.myfantasyleague.com/fflnet2015/helmets/h-0300.gif"
     },
     {
-        "division": "01",
-        "owner_name": "Tony Chavez",
-        "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0004.jpg",
-        "name": "Zeedonks",
-        "id": "0004",
-        "icon": "https://www46.myfantasyleague.com/fflnet2022/newhelmets/nh-0057.png"
+      "division": "01",
+      "owner_name": "Tony Chavez",
+      "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0004.jpg",
+      "name": "Zeedonks",
+      "id": "0004",
+      "icon": "https://www46.myfantasyleague.com/fflnet2022/newhelmets/nh-0057.png"
     },
     {
-        "division": "01",
-        "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0005.jpg",
-        "owner_name": "Robert Lozano",
-        "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0005.gif",
-        "name": "Monkeys",
-        "id": "0005"
+      "division": "01",
+      "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0005.jpg",
+      "owner_name": "Robert Lozano",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0005.gif",
+      "name": "Monkeys",
+      "id": "0005"
     },
     {
-        "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0006.gif",
-        "name": "Aardvarks",
-        "id": "0006",
-        "division": "03",
-        "owner_name": "Armando Rivas",
-        "logo": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_logo0006.gif"
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0006.gif",
+      "name": "Aardvarks",
+      "id": "0006",
+      "division": "03",
+      "owner_name": "Armando Rivas",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_logo0006.gif"
     },
     {
-        "id": "0007",
-        "name": "Iguanas",
-        "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0007.gif",
-        "owner_name": "Mike Quinn",
-        "division": "01",
-        "icon": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_icon0007.jpg"
+      "id": "0007",
+      "name": "Iguanas",
+      "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0007.gif",
+      "owner_name": "Mike Quinn",
+      "division": "01",
+      "icon": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_icon0007.jpg"
     },
     {
-        "division": "00",
-        "icon": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_icon0008.gif",
-        "owner_name": "Donnie Martinez",
-        "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0008.jpg",
-        "name": "Gorillas",
-        "id": "0008"
+      "division": "00",
+      "icon": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_icon0008.gif",
+      "owner_name": "Donnie Martinez",
+      "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0008.jpg",
+      "name": "Gorillas",
+      "id": "0008"
     },
     {
-        "division": "03",
-        "logo": "https://www46.myfantasyleague.com/fflnet2022/helmets/h-0870.gif",
-        "icon": "https://www46.myfantasyleague.com/fflnet2022/helmets/h-0870.gif",
-        "owner_name": "Nate Martinez",
-        "name": "Badgers",
-        "id": "0009"
+      "division": "03",
+      "logo": "https://www46.myfantasyleague.com/fflnet2022/helmets/h-0870.gif",
+      "icon": "https://www46.myfantasyleague.com/fflnet2022/helmets/h-0870.gif",
+      "owner_name": "Nate Martinez",
+      "name": "Badgers",
+      "id": "0009"
     },
     {
-        "division": "03",
-        "owner_name": "Max Olivas",
-        "logo": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_logo0010.gif",
-        "name": "Jackals",
-        "id": "0010",
-        "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0010.gif"
+      "division": "03",
+      "owner_name": "Max Olivas",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_logo0010.gif",
+      "name": "Jackals",
+      "id": "0010",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0010.gif"
     },
     {
-        "icon": "https://www46.myfantasyleague.com/fflnet2024/helmets/h-c-orange.gif",
-        "logo": "https://www46.myfantasyleague.com/fflnetdynamic2024/10721_franchise_logo0011.jpg",
-        "owner_name": "Adam Calderon and Rokha Na",
-        "division": "00",
-        "id": "0011",
-        "name": "Dingos"
+      "icon": "https://www46.myfantasyleague.com/fflnet2024/helmets/h-c-orange.gif",
+      "logo": "https://www46.myfantasyleague.com/fflnetdynamic2024/10721_franchise_logo0011.jpg",
+      "owner_name": "Adam Calderon and Rokha Na",
+      "division": "00",
+      "id": "0011",
+      "name": "Dingos"
     },
     {
-        "logo": "https://www47.myfantasyleague.com/fflnetdynamic2009/25044_franchise_logo0012.gif",
-        "owner_name": "Drew Downing",
-        "icon": "https://www47.myfantasyleague.com/fflnetdynamic2009/25044_franchise_icon0012.jpg",
-        "division": "02",
-        "id": "0012",
-        "name": "Kangaroos"
+      "logo": "https://www47.myfantasyleague.com/fflnetdynamic2009/25044_franchise_logo0012.gif",
+      "owner_name": "Drew Downing",
+      "icon": "https://www47.myfantasyleague.com/fflnetdynamic2009/25044_franchise_icon0012.jpg",
+      "division": "02",
+      "id": "0012",
+      "name": "Kangaroos"
     },
     {
-        "icon": "https://www46.myfantasyleague.com/fflnetdynamic2020/10721_franchise_icon0013.png",
-        "name": "Cubs",
-        "id": "0013",
-        "division": "02",
-        "owner_name": "Joseph Olivas and Tyson Perez",
-        "logo": "https://www46.myfantasyleague.com/fflnetdynamic2020/10721_franchise_logo0013.gif"
+      "icon": "https://www46.myfantasyleague.com/fflnetdynamic2020/10721_franchise_icon0013.png",
+      "name": "Cubs",
+      "id": "0013",
+      "division": "02",
+      "owner_name": "Joseph Olivas and Tyson Perez",
+      "logo": "https://www46.myfantasyleague.com/fflnetdynamic2020/10721_franchise_logo0013.gif"
     },
     {
-        "icon": "https://www48.myfantasyleague.com/fflnetdynamic2010/32686_franchise_icon0014.gif",
-        "name": "Changos",
-        "id": "0014",
-        "division": "02",
-        "owner_name": "Sam Rivas",
-        "logo": "https://www48.myfantasyleague.com/fflnetdynamic2010/32686_franchise_logo0014.gif"
+      "icon": "https://www48.myfantasyleague.com/fflnetdynamic2010/32686_franchise_icon0014.gif",
+      "name": "Changos",
+      "id": "0014",
+      "division": "02",
+      "owner_name": "Sam Rivas",
+      "logo": "https://www48.myfantasyleague.com/fflnetdynamic2010/32686_franchise_logo0014.gif"
     },
     {
-        "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0015.gif",
-        "division": "01",
-        "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0015.jpg",
-        "owner_name": "Josh Oakes",
-        "name": "Chupacabra",
-        "id": "0015"
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2007/51006_franchise_icon0015.gif",
+      "division": "01",
+      "logo": "https://www42.myfantasyleague.com/fflnetdynamic2008/46077_franchise_logo0015.jpg",
+      "owner_name": "Josh Oakes",
+      "name": "Chupacabra",
+      "id": "0015"
     },
     {
-        "name": "Cuttlefish",
-        "id": "0016",
-        "division": "00",
-        "logo": "https://www46.myfantasyleague.com/fflnet2017/newhelmets/nh-0076.png",
-        "owner_name": "Justin Frodin",
-        "icon": "https://www46.myfantasyleague.com/fflnet2017/newhelmets/nh-0076.png"
+      "name": "Cuttlefish",
+      "id": "0016",
+      "division": "00",
+      "logo": "https://www46.myfantasyleague.com/fflnet2017/newhelmets/nh-0076.png",
+      "owner_name": "Justin Frodin",
+      "icon": "https://www46.myfantasyleague.com/fflnet2017/newhelmets/nh-0076.png"
     }
   ]
 }
