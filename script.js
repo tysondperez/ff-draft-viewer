@@ -14,7 +14,6 @@ async function init(){
     franchiseMap = new Map(franchiseData.franchise.map(f => [f.id, f]));
     
     await fetchDraft();
-    console.log(picks);
     const draftOrder = buildDraftOrder(picks.slice(0, 16));
     franchiseToBox = new Map();
     draftOrder.forEach((franchiseId, i) => {
@@ -33,7 +32,7 @@ async function init(){
     
     initialized = true;
     loadDraft();
-    //setInterval(fetchDraft, 5000);
+    setInterval(fetchDraft, 5000);
 }
 
 function buildDraftOrder(first16Picks) {
@@ -50,8 +49,6 @@ function buildDraftOrder(first16Picks) {
 function loadDraft() {
     
     if (!initialized && franchiseToBox.size === 0) return;
-    console.log("loading draft");
-    // Optional: clear all boxes before redraw
     for (const ul of franchiseToBox.values()) {
         ul.innerHTML = "";
     }
@@ -116,4 +113,6 @@ async function fetchDraft(){
     }
 }
 
-init();
+document.addEventListener("DOMContentLoaded", () => {
+    init();
+});
