@@ -25,6 +25,11 @@ async function init(){
         const box = ul.closest(".box");
         if (box && franchise) {
             box.querySelector("h2").textContent = franchise.name;
+            const iconDiv = box.querySelector(".team-icon");
+
+            if (iconDiv && franchise.icon) {
+                iconDiv.style.backgroundImage = `url("${franchise.icon}")`;
+            }
         }
 
         franchiseToBox.set(franchiseId, ul);
