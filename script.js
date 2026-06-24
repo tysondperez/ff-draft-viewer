@@ -14,8 +14,7 @@ async function init(){
     franchiseMap = new Map(franchiseData.franchise.map(f => [f.id, f]));
     
     await fetchDraft();
-
-    console.log(picks.slice(0, 16));
+    console.log(picks);
     const draftOrder = buildDraftOrder(picks.slice(0, 16));
     franchiseToBox = new Map();
     draftOrder.forEach((franchiseId, i) => {
@@ -31,9 +30,9 @@ async function init(){
 
         franchiseToBox.set(franchiseId, ul);
     });
-
-    loadDraft();
+    
     initialized = true;
+    loadDraft();
     //setInterval(fetchDraft, 5000);
 }
 
@@ -43,20 +42,34 @@ function buildDraftOrder(first16Picks) {
     first16Picks.forEach((pick) => {
         if (!order.includes(pick.franchiseId)) {
             order.push(pick.franchiseId);
-            console.log("pushed a franchise");
-            console.log(pick.franchiseId);
-        } else {
-            console.log("didn't push a franchise");
-            console.log(pick.franchiseId);
         }
     });
-
-    console.log(order);
     return order;
 }
 
-function loadDraft(){
+function loadDraft() {
+    
+    if (!initialized && franchiseToBox.size === 0) return;
+    console.log("loading draft");
+    // Optional: clear all boxes before redraw
+    for (const ul of franchiseToBox.values()) {
+        ul.innerHTML = "";
+    }
 
+    for (const pick of picks) {
+        const ul = franchiseToBox.get(pick.franchiseId);
+
+        if (!ul || pick.playerName === "Unknown Player") continue;
+
+        const li = document.createElement("li");
+
+        const franchise = franchiseMap.get(pick.franchiseId);
+        const teamName = franchise ? franchise.name : pick.franchise;
+
+        li.textContent = `${pick.playerName} (${pick.position || ""})`;
+
+        ul.appendChild(li);
+    }
 }
 
 async function fetchDraft(){
