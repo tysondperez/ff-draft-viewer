@@ -1,11 +1,11 @@
 import playerData from "../player-list.json" with { type: "json" };
 
-// const LEAGUE_YEAR = 2025;
-// const LEAGUE_ID = 10721;
-// const HOST = "www46";
-const LEAGUE_YEAR = 2026;
-const LEAGUE_ID = 33197;
-const HOST = "www45";
+const LEAGUE_YEAR = 2025;
+const LEAGUE_ID = 10721;
+const HOST = "www46";
+// const LEAGUE_YEAR = 2026;
+// const LEAGUE_ID = 33197;
+// const HOST = "www45";
 
 const playerMap = new Map(
     playerData.players.player.map(p => [p.id, p])
