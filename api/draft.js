@@ -71,11 +71,27 @@ export default async function handler(req, res) {
 
             const player = playerMap.get(playerId);
 
+            const rawName = player?.name;
+
+            let formattedName = "Unknown Player";
+
+            if (rawName && typeof rawName === "string" && rawName.trim().length > 0) {
+                const parts = rawName.split(",");
+
+                if (parts.length === 2) {
+                    const last = parts[0].trim();
+                    const first = parts[1].trim();
+                    formattedName = `${first} ${last}`;
+                } else {
+                    formattedName = rawName.trim();
+                }
+            }
+
             return {
                 round: Number(pick.round),
                 pick: Number(pick.pick),
                 playerId,
-                playerName: player?.name || "Unknown Player",
+                playerName: formattedName,
                 position: player?.position || null,
                 nflTeam: player?.team || null,
                 franchiseId: pick.franchise || null,
