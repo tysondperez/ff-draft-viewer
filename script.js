@@ -64,7 +64,35 @@ function loadDraft() {
         const li = document.createElement("li");
 
         const franchise = franchiseMap.get(pick.franchiseId);
-        const teamName = franchise ? franchise.name : pick.franchise;
+        //const teamName = franchise ? franchise.name : pick.franchise;
+
+        const position = (pick.position || "").toUpperCase();
+        switch (position) {
+            case "QB":
+                li.classList.add("qb");
+                break;
+
+            case "RB":
+                li.classList.add("rb");
+                break;
+
+            case "WR":
+                li.classList.add("wr");
+                break;
+
+            case "TE":
+                li.classList.add("te");
+                break;
+
+            case "DEF":
+            case "DST":
+                li.classList.add("def");
+                break;
+
+            case "K":
+                li.classList.add("k");
+                break;
+        }
 
         li.textContent = `${pick.playerName} (${pick.position || ""})`;
 
