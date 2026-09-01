@@ -121,7 +121,7 @@ header {
 }
 
 .onClock {
-    border-color: red;
+    border: 3px solid red;
 }
 
 @media (max-width: 1600px) {

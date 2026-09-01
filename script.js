@@ -67,8 +67,8 @@ function loadDraft() {
         if (!ul) continue;
         if (pick.playerName === "Unknown Player"){
             if (!setOnClock){
-                lastPickUl.classList.remove("onClock");
-                ul.classList.add("onClock");
+                lastPickUl.closest(".box").classList.remove("onClock");
+                ul.closest(".box").classList.add("onClock");
                 setOnClock = true;
             }
             continue;
