@@ -89,7 +89,7 @@ header {
     overflow: hidden;
 
     display: grid;
-    grid-template-rows: repeat(16, minmax(0, 1fr));
+    grid-template-rows: repeat(14, minmax(0, 1fr));
 
     font-size: clamp(0.65rem, 0.7vw, 0.95rem);
 }
