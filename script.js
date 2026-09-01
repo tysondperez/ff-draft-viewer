@@ -24,7 +24,7 @@ async function init(){
 
         const box = ul.closest(".box");
         if (box && franchise) {
-            box.querySelector("h2").textContent = franchise.name;
+            box.querySelector("h2").textContent = franchise.name + " " + franchiseId;
             const iconDiv = box.querySelector(".team-icon");
 
             if (iconDiv && franchise.icon) {
