@@ -17,12 +17,12 @@ import json
 #     print(f"Player ID: {id} | Round: {round} | Pick: {pick}")
 
 response = requests.get(
-        "https://www46.myfantasyleague.com/2025/export?TYPE=league&L=10721&APIKEY=axZi3cqavuWqx12mOVnGYzMeFKQtiQ%3D%3D&DETAILS=&SINCE=&PLAYERS=&JSON=1",
+        "https://www45.myfantasyleague.com/2026/export?TYPE=players&L=33197&APIKEY=axZi3cqavuWpx0OmO1rAaDUeFbox&DETAILS=&SINCE=&PLAYERS=&JSON=1",
     )
 
 print(response.json())
 
-# filename = "player-list.json"
+filename = "player-list.json"
 
-# with open (filename, "w") as f:
-#     json.dump(response.json(), f, indent=2)
+with open (filename, "w") as f:
+    json.dump(response.json(), f, indent=2)
