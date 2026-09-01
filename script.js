@@ -58,10 +58,22 @@ function loadDraft() {
         ul.innerHTML = "";
     }
 
+    let lastPickUl = null;
+    let setOnClock = false;
+
     for (const pick of picks) {
         const ul = franchiseToBox.get(pick.franchiseId);
 
-        if (!ul || pick.playerName === "Unknown Player") continue;
+        if (!ul) continue;
+        if (pick.playerName === "Unknown Player"){
+            if (!setOnClock){
+                lastPickUl.classList.remove("onClock");
+                ul.classList.add("onClock");
+                setOnClock = true;
+            }
+            continue;
+        }
+            
 
         const li = document.createElement("li");
 
@@ -99,6 +111,7 @@ function loadDraft() {
         li.textContent = `${pick.playerName} (${pick.position || ""})`;
 
         ul.appendChild(li);
+        lastPickUl = ul;
     }
 }
 
