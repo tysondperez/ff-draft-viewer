@@ -100,24 +100,20 @@ header {
 
 .qb {
     color: green;
-    font-weight: bold;
 }
 
 .rb {
     color: blue;
-    font-weight: bold;
 }
 
 .wr,
 .te {
     color: red;
-    font-weight: bold;
 }
 
 .def,
 .k {
     color: black;
-    font-weight: bold;
 }
 
 .onClock {

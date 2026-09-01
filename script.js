@@ -103,7 +103,7 @@ function loadDraft() {
                 li.classList.add("def");
                 break;
 
-            case "K":
+            case "PK":
                 li.classList.add("k");
                 break;
         }
