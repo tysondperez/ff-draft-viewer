@@ -148,21 +148,30 @@ header {
 
     .box {
         min-height: 0;
+        display: block;
     }
 
     .box ul {
-        flex: none;
-        overflow: visible;
-
         display: grid;
+
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: none;
 
         column-gap: 12px;
         row-gap: 4px;
 
-        font-size: clamp(0.9rem, 4vw, 1.2rem);
+        /* Remove desktop flex behavior */
+        flex: none;
 
+        height: auto;
+        min-height: 0;
+
+        overflow: visible;
+
+        font-size: clamp(0.9rem, 4vw, 1.2rem);
         line-height: 1.4;
+
+        padding: 4px;
     }
 
     .box li {
