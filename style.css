@@ -134,6 +134,7 @@ header {
     }
 
     body {
+        height: auto;
         overflow-y: auto;
         overflow-x: hidden;
     }
@@ -142,13 +143,31 @@ header {
         grid-template-columns: 1fr;
         grid-template-rows: none;
         height: auto;
+        min-height: 0;
     }
 
     .box {
-        min-height: 250px;
+        min-height: 0;
     }
 
     .box ul {
+        flex: none;
         overflow: visible;
+
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        column-gap: 12px;
+        row-gap: 4px;
+
+        font-size: clamp(0.9rem, 4vw, 1.2rem);
+
+        line-height: 1.4;
+    }
+
+    .box li {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
